@@ -1,1 +1,49 @@
+body {
+  background: #121212;
+  color: #eee;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
 
+.container {
+  background: #1e1e1e;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #0ff;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #0ff;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #0ff;
+  color: #121212;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #0cf;
+}
+
+.profile {
+  margin-top: 1rem;
+}
+
+.avatar {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
