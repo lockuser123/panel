@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 Control Panel</h1>
+    <div class="profile">
+      <img src="https://cdn.discordapp.com/avatars/<%= user.id %>/<%= user.avatar %>.png" alt="Avatar" class="avatar" />
+      <h2><%= user.username %>#<%= user.discriminator %></h2>
+      <p>ID: <%= user.id %></p>
+      <a href="/logout" class="btn">Logout</a>
+    </div>
+  </div>
+</body>
+</html>
